@@ -1,7 +1,8 @@
-#include "Header1.h"#include "Header11.h"
+#include "Header.h"
+#include "Header2.h"
 int main()
 {
-	ifstream file("text1.txt");
+	ifstream file("Text.txt");
 	matrix m;
 	matrix* a = new matrix[100];
 	int counter = 0;
@@ -19,8 +20,10 @@ int main()
 		cout << endl << endl;
 	}
 	cout << "matrix addition: " << endl;
-	for (int i = 0; i < a[0].getRows(); i++) {
-		for (int j = 0; j < a[0].getRows(); j++) {
+	for (int i = 0; i < a[0].getRows(); i++)
+	{
+		for (int j = 0; j < a[0].getRows(); j++)
+		{
 			cout << a[0].getValue(i, j) + a[1].getValue(i, j) << " ";
 		}
 		cout << endl;
@@ -36,7 +39,10 @@ int main()
 	matrix2 m2;
 	cout << endl;
 	int row, col;
-	cout << "Enter rows: "; cin >> row; cout << "Enter cols: "; cin >> col; cout << endl;
+	cout << "Enter rows: ";
+	cin >> row;
+	cout << "Enter cols: ";
+	cin >> col; cout << endl;
 	for (int i = 0; i < row; i++)
 	{
 		for (int j = 0; j < col; j++)
@@ -44,7 +50,7 @@ int main()
 			m2.PrintM();
 		}  cout << endl;
 	}
-	ofstream file2("text2.txt");
+	ofstream file2("Text2.txt");
 	cout << "Enter rows: "; cin >> row; cout << "Enter cols: "; cin >> col; cout << endl;
 	int value;
 	for (int i = 0; i < row; i++)
