@@ -1,17 +1,10 @@
 #pragma once
 #include "Header.h"
 
-class matrix2  {
-private:
-	int row;
-	int col;
+class matrix2 : public matrix {
 public:
-	matrix2();
-	matrix2(int r, int c);
-	matrix2(const matrix& m);
-	friend ostream& operator<<(ostream& os, const matrix2& m);
-	friend istream& operator>>(istream& is, matrix2& m);
-	bool operator+(istream& is, matrix2& m);
-	bool operator-(istream& is, matrix2& m);
+   matrix2() : matrix() {}
+   matrix2(int r, int c, int** arr) : matrix(r, c, arr) {}
+   matrix2(matrix& m);
+   void fillWithOnes();
 };
-void printMatrix(matrix2* m,int size);
