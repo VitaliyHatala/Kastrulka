@@ -5,6 +5,8 @@ VisualStudioVersion = 17.8.34525.116
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Kastrulka", "Kastrulka\Kastrulka.vcxproj", "{17F98F37-CC6D-4771-81A7-60F9BB27FB52}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "UnitTest1 kastr", "UnitTest1 kastr\UnitTest1 kastr.vcxproj", "{EE841261-43CA-44AC-962A-16059A58788E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{17F98F37-CC6D-4771-81A7-60F9BB27FB52}.Release|x64.Build.0 = Release|x64
 		{17F98F37-CC6D-4771-81A7-60F9BB27FB52}.Release|x86.ActiveCfg = Release|Win32
 		{17F98F37-CC6D-4771-81A7-60F9BB27FB52}.Release|x86.Build.0 = Release|Win32
+		{EE841261-43CA-44AC-962A-16059A58788E}.Debug|x64.ActiveCfg = Debug|x64
+		{EE841261-43CA-44AC-962A-16059A58788E}.Debug|x64.Build.0 = Debug|x64
+		{EE841261-43CA-44AC-962A-16059A58788E}.Debug|x86.ActiveCfg = Debug|Win32
+		{EE841261-43CA-44AC-962A-16059A58788E}.Debug|x86.Build.0 = Debug|Win32
+		{EE841261-43CA-44AC-962A-16059A58788E}.Release|x64.ActiveCfg = Release|x64
+		{EE841261-43CA-44AC-962A-16059A58788E}.Release|x64.Build.0 = Release|x64
+		{EE841261-43CA-44AC-962A-16059A58788E}.Release|x86.ActiveCfg = Release|Win32
+		{EE841261-43CA-44AC-962A-16059A58788E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

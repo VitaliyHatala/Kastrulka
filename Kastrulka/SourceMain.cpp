@@ -61,4 +61,5 @@ int main()
 			cin >> value;   file2 << value << " ";
 		}  file2 << endl;
 	}
+	return 0;
 }
