@@ -13,7 +13,8 @@ DiagonalMatrix::DiagonalMatrix() : matrix() {}
 
 DiagonalMatrix::DiagonalMatrix(int r, int c, int** a) : matrix(r, c, a) {}
 
-DiagonalMatrix::DiagonalMatrix(matrix& m) : matrix(m) {}void DiagonalMatrix::PrintD()
+DiagonalMatrix::DiagonalMatrix(matrix& m) : matrix(m) {}
+void DiagonalMatrix::PrintD()
 {
 	for (int i = 0; i < rows; i++)
 	{
