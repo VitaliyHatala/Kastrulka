@@ -14,10 +14,15 @@ public:
  matrix(); 
  matrix(int r, int c, int** array); 
  matrix(const matrix& m); 
+
  friend ostream& operator<<(ostream& os, const matrix& m); 
  friend istream& operator>>(istream& is, matrix& m); 
  
  int getRows() { return rows; } 
  int getCols() { return cols; } 
  int getValue(int i, int j) { return array[i][j]; } 
+ void trans();
+
 };
+void storeOn(matrix* m,int size,ifstream& fin);
+void store_arraydefault_Off(int size,int size2,ofstream& fout);
