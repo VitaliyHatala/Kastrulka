@@ -17,9 +17,9 @@ class DiagonalMatrix : public matrix
 public:
 	DiagonalMatrix();
 	DiagonalMatrix(int r, int c, int** array);
-	 DiagonalMatrix(matrix& m);
+	DiagonalMatrix(matrix& m);
 	void PrintD();
-}
+};
 
 class UpperMatrix : public matrix
 {
