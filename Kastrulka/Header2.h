@@ -10,3 +10,13 @@ matrix2(int r, int c, int** array); matrix2(matrix& m);
 
  void PrintM();
 };
+
+class DiagonalMatrix : public matrix
+{
+
+public:
+	DiagonalMatrix();
+	DiagonalMatrix(int r, int c, int** array); DiagonalMatrix(matrix& m);
+
+	void PrintD();
+};
