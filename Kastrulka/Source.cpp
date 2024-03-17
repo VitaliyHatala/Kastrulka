@@ -21,6 +21,7 @@ void matrix::trans()
 			trans_arr[j][i] = array[i][j];
 		}
 	}
+	cout << "Matrix from first matrix: " << endl;
 	for (int i = 0; i < rows; i++) {
 		for (int j = 0; j < cols; j++) {
 			cout << trans_arr[i][j] << " ";
@@ -30,7 +31,8 @@ void matrix::trans()
 }
 
 ostream& operator<<(ostream& os, const matrix& m)
-{ os << m.rows << " " << m.cols << endl;
+{
+	os << endl << "Rows: " << m.rows << endl << "Cols: " << m.cols << endl << "Matrix: " << endl;
  for (int i = 0; i < m.rows; i++)  {
   for (int j = 0; j < m.cols; j++)   {
    os << m.array[i][j] << ' ';  }
