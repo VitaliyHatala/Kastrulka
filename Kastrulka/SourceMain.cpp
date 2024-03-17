@@ -13,7 +13,7 @@ int main()
 	storeOn(a,4,file);
 	a[0].trans();
 	
-	cout << "matrix addition: " << endl;
+	cout << endl << "matrix addition: " << endl;
 	for (int i = 0; i < a[0].getRows(); i++)
 	{
 		for (int j = 0; j < a[0].getRows(); j++)
